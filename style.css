@@ -7,7 +7,89 @@ body {
     display: flex;
     flex-direction: column;
     background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
+
+button {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #9CA3AF;
+    color: #1F2937;
+}
+
+.header {
+    background-color: #1F2937;
+    height: 120px;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+img {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    border: #1F2937 solid 5px;
+    border-radius: 50%;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    align-self: flex-end;
+    
+}
+
+li a{
+    padding: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: underline darkred;
+}
+
+li a:hover {
+    color: burlywood;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+#header-nav {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    margin-top: 0;
+    padding: 20px;
+    background-color: burlywood;
+    text-shadow: darkred 2px 2px 2px;
+}
+
+
+
+
+
+
 /* 
 .container, 
 div {
