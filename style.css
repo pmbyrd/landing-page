@@ -1,23 +1,69 @@
+body {
+    background-image: url(/landing-page/images/wood-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+}
 /* 
-1. Set the background color to to the background image from the images folder
-2. Set the background size to cover
-3. Set the background position to center
-4. Set the background repeat to no-repeat
-*/
+.container, 
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+
+.header {
+    background-color: #1F2937;
+    height: 120px;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 
 
 
 
-/* 
-The header and the footer should be 100% of the width of the page
-They will be flexed to the top and bottom of the page respectively
+.logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: auto;
+}
 
-*/
+ul {
+    display: flex;
+    list-style: none;
+    align-self: flex-end;
+}
 
-/*
-Remove the list style from the ul the li elements are children 
- */
-
-/* 
+li a{
+    padding: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
+} */
  
-*/
+
+/* 
+header {
+    background-color: #1F2937;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* the ul is an element, must style that element */
+/* .nav, 
+
+li a:hover {
+    color: #9CA3AF;
+}
+
