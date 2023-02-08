@@ -1,4 +1,146 @@
+
 body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-size: cover;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-image: url(/landing-page/images/wood-background.jpg);
+}
+
+img {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    border: #1F2937 solid 5px;
+    border-radius: 50%;
+}
+
+button {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    border: #E5E7EB solid 2px;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 18px;
+    margin: 10px;
+    width: fit-content;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+#header-nav {
+    background-color: #1F2937;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    align-self: flex-end;
+}
+
+li a{
+    padding: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: underline darkred;
+}
+
+li a:hover {
+    color: burlywood;
+}
+
+/* section for the intro */
+.intro-text {
+    color: #E5E7EB;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    margin-top: 0;
+    padding: 20px;
+    background-color: burlywood;
+    text-shadow: darkred 2px 2px 2px;
+    align-self: stretch;
+}
+
+.intro-text img {
+    max-width: fit-content;
+    align-self: flex-end;
+}
+
+h2 {
+    color: #F9FAF8;
+    font-size: 36px;
+    margin-top: 0;
+    padding: 20px;
+    background-color: burlywood;
+    text-shadow: darkred 2px 2px 2px;
+    align-self: stretch;
+}
+/* cards container */
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+
+.card {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: #E5E7EB;
+    font-size: 24px;
+    padding: 10px;
+    border: burlywood solid 5px;
+    border-radius: 10px;
+}
+
+h3 {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-top: 0;
+    padding: 20px;
+    text-shadow: #1F2937 2px 2px 2px;
+    align-self: stretch;
+}
+
+/* quote */
+
+
+
+/* body {
     background-image: url(/landing-page/images/wood-background.jpg);
     background-size: cover;
     background-position: center;
@@ -11,15 +153,7 @@ body {
     text-align: center;
 }
 
-button {
-    background-color: #1F2937;
-    color: #E5E7EB;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 18px;
-    margin: 10px;
-}
+
 
 button:hover {
     background-color: #9CA3AF;
@@ -35,13 +169,7 @@ button:hover {
     align-items: center;
 }
 
-img {
-    width: 500px;
-    height: 300px;
-    margin: 0 auto;
-    border: #1F2937 solid 5px;
-    border-radius: 50%;
-}
+
 
 .nav {
     display: flex;
@@ -61,12 +189,7 @@ li a:hover {
     color: burlywood;
 }
 
-.logo {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin: auto;
-}
+
 
 #header-nav {
     width: 100vw;
@@ -76,6 +199,35 @@ li a:hover {
     align-items: center;
 }
 
+.intro-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.intro-text img {
+    width: 45%;
+    align-self: flex-end;
+}
+
+.intro-text button {
+    align-self: center;
+}
+
+.intro-text p {
+    color:  #F9FAF8;
+    font-size: 24px;
+    margin-top: 0;
+    padding: 20px;
+    width: 45%;
+}
+
+
+
 h1 {
     color: #F9FAF8;
     font-size: 48px;
@@ -83,69 +235,36 @@ h1 {
     padding: 20px;
     background-color: burlywood;
     text-shadow: darkred 2px 2px 2px;
+    align-self: stretch;
 }
 
 
-
-
-
-
-/* 
-.container, 
-div {
+.cards {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h2 {
+    color: #F9FAF8;
+    font-size: 36px;
+    margin-top: 0;
+    padding: 20px;
+    background-color: burlywood;
+    text-shadow: darkred 2px 2px 2px;
+    align-self: stretch;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
-}
-
-.header {
-    background-color: #1F2937;
-    height: 120px;
-    width: 100vw;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-
-
-
-.logo {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin: auto;
-}
-
-ul {
-    display: flex;
-    list-style: none;
-    align-self: flex-end;
-}
-
-li a{
-    padding: 10px;
-    font-size: 18px;
-    color: #E5E7EB;
 } */
- 
 
-/* 
-header {
-    background-color: #1F2937;
-    height: 120px;
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
 
-/* the ul is an element, must style that element */
-/* .nav, 
 
-li a:hover {
-    color: #9CA3AF;
-}
+
 
