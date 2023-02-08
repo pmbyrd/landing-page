@@ -137,8 +137,38 @@ h3 {
 }
 
 /* quote */
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    width: 600px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    align-self: center;
+    background-color: #F9FAF8;
+    margin: 20px;
+    border: #1F2937 solid 5px;
+    border-radius: 10px;
+} 
 
+.author {
+    font-size: 24px;
+    font-style: normal;
+    align-self: flex-end;
+    padding-right: 20px;
+}
 
+.footer {
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
 
 /* body {
     background-image: url(/landing-page/images/wood-background.jpg);
