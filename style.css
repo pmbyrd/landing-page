@@ -95,7 +95,7 @@ h2 {
     font-size: 36px;
     margin-top: 0;
     padding: 20px;
-    background-color: burlywood;
+    background: rgba(0, 0, 0, 0.5);
     text-shadow: darkred 2px 2px 2px;
     align-self: stretch;
 }
