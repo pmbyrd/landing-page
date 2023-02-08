@@ -148,7 +148,7 @@ h3 {
     font-style: italic;
     color: #1F2937;
     align-self: center;
-    background-color: #F9FAF8;
+    background-color: rgba(249, 250, 248, 0.7);
     margin: 20px;
     border: #1F2937 solid 5px;
     border-radius: 10px;
